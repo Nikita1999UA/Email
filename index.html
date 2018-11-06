@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            width: 100% !important;
+            -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;
+        }
+
+        .bg-wrapper{
+            background: #E5E5E5;
+            font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        }
+
+        .wrapper{
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header{
+            padding-left: 15px;
+        }
+
+        .menu-link{
+            color: #000000;
+            text-decoration: none;
+            display: block;
+            padding: 0 12px;
+            font-size: 16px;
+        }
+
+        .block__img{
+            max-width: 600px;
+            min-width: 200px;
+            width: 100%;
+            height: 294px;
+            background-size: 100% 100%;
+            background-image:  url(https://picua.org/images/2018/11/05/b00b254a6b7fd5f59fcb89ac916124d1.png);
+            color: #fff;
+            position: relative;
+            font-size: 36px;
+        }
+
+        .text{
+            position: absolute;
+            top: 28%;
+            left: 5%;
+            line-height: 40px;
+        }
+
+        .order-text{
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .order-desr{
+            font-size: 24px;
+            padding-left: 10%;
+        }
+
+        .btn-link{
+            display: inline-block;
+            background: #EF3A38;
+            padding: 12px 50px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #ffffff;
+            border-radius: 15px;
+        }
+
+        .support{
+            padding-left: 10%;
+            font-size: 24px;
+            font-weight: bold;  
+        }
+
+        /* .text-support{
+            position: absolute;
+            top: 15%;
+        } */
+
+        .text-question{
+            color: #ffffff;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .btn-callback{
+            display: block;
+            background: #ffffff;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000000;
+            width: 80%;
+            padding: 25px 0 25px 0;
+        }
+        
+        .text-desr{
+            color: #39424C;
+            font-size: 24px;
+            padding-left: 10%;
+            line-height: 35px;
+        }
+
+        .contact{
+            padding-left: 10%;
+            padding-right: 5%;
+        }
+
+        .text-contact{
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 22px;
+        }
+
+        .text-contact__link{
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 22px;
+            text-decoration: none;
+        }
+
+        .text-contact__close{
+            font-size: 10px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 22px;
+            text-decoration: none;
+        }
+
+        .footer{
+            padding-left: 10%;
+        }
+
+        .text-footer{
+            color: #D2D2D2;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+
+    </style>
+    <div class="bg-wrapper">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"  class="wrapper">
+            <tbody>
+                <tr>
+                    <td>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="header">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <td class="logo" width="100" height="50">
+                                            <img src="https://picua.org/images/2018/11/05/02ce8f672ae56d42a7c97df76debabef.png" alt="Tempo" style="display: block;"/>
+                                        </td>
+                                        <td class="menu" align="center">
+                                        <!-- menu -->
+                                        <table cellpadding="0" cellspacing="0" border="0" class="menu-wrapper">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#" class="menu-link">
+                                                        Детям
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="menu-link">
+                                                        Взрослым
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="menu-link">
+                                                        Группе детей 
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="menu-link">
+                                                        Коллектив
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" class="block__img" >
+                            <tbody>
+                                <tr>
+                                    <td class="text">
+                                        *Username*<br/>
+                                        получит поздравление<br/>
+                                        от Дедушки Мороза!
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" >
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table bgcolor="#ffffff" width="580" align="center" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td height="40"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" class="order-text">
+                                                        Номер вашего заказа
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" class="order-text">
+                                                        *Orderid"
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30" width="100%"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" class="order-desr"> 
+                                                        Вы заказали поздравление с Новым Годом <br/>
+                                                        для *username*
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="50" width="100%"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center">
+                                                        <a href="#" class="btn-link">Скачать</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" height="100"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="F2F2F2" height="250" class="support">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+                                            <tbody>
+                                                <tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="text-support" width="100%">
+                                                            Важно:
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="text-support__main">
+                                                            
+                                                        Просмотрите видео до показа ребенку или взрослому. 
+                                                        Если в  заказе есть неточности сообщите в службу поддержки Видеоподарка.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="text-support" width="100%">
+                                                            8-800-550-58-96
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="10" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="text-support" width="100%">
+                                                            privet@videopodarok24.ru
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="C4C4C4"  class="phone">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <td>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" class="text-question">
+                                                            Есть вопросы?
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="#" class="btn-callback">8-800-550-58-96</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="30" width="100%"></td>
+                                                    </tr>
+                                                </td>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="ffffff" >
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <tr>
+                                                            <td height="50" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" class="logo" width="150" height="50">
+                                                                <img src="https://picua.org/images/2018/11/06/c4451cd429e8307581bf741b5e6498e1.png" alt="tempo">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="60" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" class="text-desr">
+                                                                Видеоподарок – это крупнейший сервис персонализированных поздравлений.  
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="50" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" class="text-desr">
+                                                                150 000 поздравленных детей <br/>
+                                                                15 стран <br/> 
+                                                                900 отзывов
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="50" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" class="text-desr">
+                                                                Мы дарим волшебство!
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="150" width="100%"></td>
+                                                        </tr>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="D6D6D6" class="contact" >
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <tr>
+                                                            <td height="10" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" class="logo" width="150" height="50">
+                                                                    <img src="https://picua.org/images/2018/11/05/02ce8f672ae56d42a7c97df76debabef.png" alt="Tempo" style="display: block;"/>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="5" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" class="text-contact">
+                                                                Сервис персональных видеопоздравлений <br/>
+                                                                от Деда Мороза  
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="60" width="100%"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <a href="#" class="text-contact__link">
+                                                                    Контакты
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <a href="#" class="text-contact__link">
+                                                                    Пользовательское соглашение
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <a href="#" class="text-contact__link">
+                                                                    8-800-550-58-96
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <a href="#" class="text-contact__link">
+                                                                    privet@videopodarok24.ru
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right">
+                                                                <a href="#" class="text-contact__close">
+                                                                    Отписаться
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="50" width="100%"></td>
+                                                        </tr>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="4C4B4B" class="footer" height="40">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#" class="text-footer">Copyright (с) 2015-2018 Видеоподарок</a>
+                                                            </td>
+                                                        </tr>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
